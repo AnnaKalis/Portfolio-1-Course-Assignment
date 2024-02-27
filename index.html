@@ -13,15 +13,40 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/index.css" />
+    <script src="./js/index.js" type="module"></script>
   </head>
   <body>
-    <main>
-      <div class="intro">
-        <h1>Anna Kalis</h1>
-        <p>Front-end developer</p>
+    <header>
+      <a href="/index.html">Anna Kalis</a>
+      <nav>
+        <div class="nav-menu">
+          <a href="#about" class="nav-menu-link">About</a>
+          <a href="#portfolio" class="nav-menu-link">Projects</a>
+          <a href="#contact" class="nav-menu-link">Contact</a>
+        </div>
+      </nav>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
-      <section class="portfolio">
-        <h2>My work</h2>
+    </header>
+    <main>
+      <div id="about">
+        <h1>About me</h1>
+        <p>
+          Hi there! I'm Anna, 41 years old, with a background in international business. I've spent years in
+          research administration and project economics. Currently, I'm studying at Noroff School of
+          Technology and Digital Media to become a front-end developer.
+        </p>
+        <p>
+          Take a peek at my portfolio and feel free to get in touch if you'd like to connect or have any
+          questions. Looking forward to hearing from you!
+        </p>
+      </div>
+      <section id="portfolio">
+        <h1>My projects</h1>
+        <div class="portfolio-section-container"></div>
         <div class="portfolio-container">
           <div class="portfolio-item">
             <h3>Thrive blog</h3>
@@ -33,9 +58,11 @@
                   href="https://github.com/Noroff-FEU-Assignments/project-exam-1-AnnaKalis/tree/main"
                   class="cta"
                   target="_blank"
-                  >View code</a>
+                  >View code</a
+                >
                 <a href="https://darling-kashata-333397.netlify.app/" class="cta" target="_blank"
-                  >Visit Website</a>
+                  >Visit Website</a
+                >
               </div>
             </div>
           </div>
@@ -46,15 +73,17 @@
             <img src="/images/rainy-days-shop.png" alt="Picture of the home page of Rainy days web shop." />
             <div class="portfolio-item-text">
               <p>Short description</p>
-              <div class="buttons"><a
-                href="https://github.com/AnnaKalis/cross-course-project-AnnaKalis-InteractionDesign/tree/main"
-                class="cta"
-                target="_blank"
-                >View code</a
-              >
-              <a href="https://rainbow-malasada-e816ea.netlify.app/" class="cta" target="_blank"
-                  >Visit Website</a>
-                </div>
+              <div class="buttons">
+                <a
+                  href="https://github.com/AnnaKalis/cross-course-project-AnnaKalis-InteractionDesign/tree/main"
+                  class="cta"
+                  target="_blank"
+                  >View code</a
+                >
+                <a href="https://rainbow-malasada-e816ea.netlify.app/" class="cta" target="_blank"
+                  >Visit Website</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -68,15 +97,22 @@
             <div class="portfolio-item-text">
               <p>Short description</p>
               <div class="buttons">
-              <a href="https://github.com/AnnaKalis/Semester-project-1" class="cta" target="_blank"
-                >View code</a
-              >
-              <a href="https://app.netlify.com/sites/semester-project-1-museum-anna-kalis/" class="cta" target="_blank"
-                  >Visit Website</a>
-                </div>
+                <a href="https://github.com/AnnaKalis/Semester-project-1" class="cta" target="_blank"
+                  >View code</a
+                >
+                <a
+                  href="https://app.netlify.com/sites/semester-project-1-museum-anna-kalis/"
+                  class="cta"
+                  target="_blank"
+                  >Visit Website</a
+                >
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <section id="contact">
+        <h1>Contact me</h1>
       </section>
     </main>
     <footer></footer>
