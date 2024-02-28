@@ -130,7 +130,7 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  background-color: white;
+  background-color: #ebf1f9;
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 30px;
@@ -138,7 +138,7 @@ p {
 
 .portfolio-item img {
   max-width: 100%;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
   border-radius: 10px;
 }
 
@@ -234,4 +234,21 @@ footer {
   .nav-menu.active {
     left: 0;
   }
+}
+
+@media (max-width: 650px)
+{
+    main{
+        width:80%;
+    }
+
+    header{
+        padding:0 30px;
+    }
+}
+
+@media (max-width: 450px){
+    main{
+        width:90%;
+    }
 }
