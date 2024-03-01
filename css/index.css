@@ -135,6 +135,9 @@ p {
   padding: 30px;
   margin-bottom: 30px;
 }
+.portfolio-item p {
+  text-align: center;
+}
 
 .portfolio-item img {
   max-width: 100%;
